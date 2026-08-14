@@ -1,0 +1,66 @@
+# Environment variables — NEVER commit secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.spec
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+.virtualenv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model cache (can be large; regenerated on first run)
+# Uncomment below if you want to exclude the HuggingFace model cache:
+# ~/.cache/huggingface/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
